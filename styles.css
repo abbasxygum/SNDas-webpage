@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+nav .logo {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #2c3e50; /* Darker shade of blue */
+}
+
+.welcome-section {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/welcome1.png'); /* Replace 'background.jpg' with your actual image URL */
+}
+
+.welcome-section img {
+    display: none; /* Hide the image, as it's set as a background */
+}
+
+.welcome-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-content h2 {
+    font-size: 2em;
+}
+
+.welcome-content p {
+    font-size: 1.2em;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.light-blue-bg {
+    background-color: #ecf0f1; /* Light blue */
+}
+
+.faculty-section {
+    text-align: center;
+}
+
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.faculty-box {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.faculty-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.faculty-box p {
+    font-size: 1.2em;
+}
+
+.faculty-box:hover {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+}
+
+.alumni-section {
+    text-align: center;
+}
+
+.alumni-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.alumni-box {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.alumni-box img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.alumni-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.alumni-box p {
+    font-size: 1.2em;
+}
+
+.alumni-box:hover {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+}
+
+#contact h2 {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: auto;
+    width: 100%;
+}
