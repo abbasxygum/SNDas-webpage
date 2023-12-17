@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Default font with fallback */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .welcome-content h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .welcome-content p {
@@ -151,8 +151,20 @@ nav a:hover {
     color: #fff;
 }
 
+#about {
+    text-align: center; /* Center-align the text in the "About Us" section */
+}
+
+#about h2 {
+    font-size: 2.5em;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
 #contact h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 footer {
